@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Haze Singapore - OneMap 2.0</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Bootstrap Theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Haze - Singapore (OneMap)</h1>
+
+    <p id="timestamp"></p>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>24-hr PSI: <span id="national-24-psi">-</span></p>
+        <p>3-hr PSI: <span id="national-3-psi">-</span></p>
+      </div>
+    </div>
+
+    <!-- All Regions -->
+    <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">
+        <h3 class="panel-title">Overview</h3>
+      </div>
+      <!-- Table -->
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Region</th>
+            <th scope="col">24-hr PSI</th>
+            <th scope="col">3-hr PSI</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>North</td>
+            <td id="north-24-psi">-</td>
+            <td id="north-3-psi">-</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>East</td>
+            <td id="east-24-psi">-</td>
+            <td id="east-3-psi">-</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Central</td>
+            <td id="central-24-psi">-</td>
+            <td id="central-3-psi">-</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>West</td>
+            <td id="west-24-psi">-</td>
+            <td id="west-3-psi">-</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>South</td>
+            <td id="south-24-psi">-</td>
+            <td id="south-3-psi">-</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </div>
+    <hr>
+    <footer>
+    </footer>
+
+  </div> <!-- end .container -->
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- Script -->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
